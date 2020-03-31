@@ -1,0 +1,162 @@
+/* La MEP pour l'ensemble de la page */
+
+body {
+	font-family: arial
+	color: #2A2B2E;
+}
+
+a{
+	font-family: arial;
+	font-size:14px;
+}
+
+a:link{
+	color: #2A2B2E;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #2A2B2E;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #2A2B2E;
+	text-decoration: underline;
+}
+
+
+/* La MEP bloc par bloc */
+
+#entete {
+	display: flex; /* Flex box pour la mise en page globale des blocs */
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px 5px 5px 5px;
+}
+
+.gmail {
+	padding: 10px;
+}
+
+.images {
+	padding: 10px;
+}
+
+.pad {
+	padding: 10px;
+}
+
+.compte{
+	padding: 10px;
+}
+
+.button1{ /* J'AVOUE avoir c/c le code sur un site mais c'était pour que cela fasse plus réaliste ^^ */
+	padding:6px 0 6px 0; /* marges intérieures */
+	font:bold 13px Arial; /* type de police */
+	background:#478bf9; /* couleur de fond du bouton */
+	color:#fff; /* couleur de la font */
+	border-radius:2px; /* l'arondi du bouton */
+	width:100px; /* longueur */
+	border:none; /* sans bordure */
+} /* => Juste pour montrer que je sais à quoi ça correspond ;) */
+
+.logogoogle{
+	padding-top: 150px;
+}
+
+.searchbar{
+	padding-top: 20px;
+}
+
+.search{
+	border-radius: 20px;
+	width:550px;
+	height: 38px;
+
+}
+
+.boutons{
+	padding-top: 20px;
+}
+
+.button2 {
+	border:none;
+	padding:10px 15px 10px 15px;
+	border-radius:5px;
+	background:#D4D5D8;
+	font: 13px Arial;
+	color:#555;
+}
+
+
+.barriere{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 20px 360px 20px
+}
+
+
+footer{
+	background-color: #F0F0F3;
+	display: flex;
+	position: inline-block;
+	justify-content: space-between;
+
+}
+
+#footer_right{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	margin-bottom: 10px  
+
+}
+
+.Publicite{
+	padding: 5px
+}
+
+.Entreprise{
+	padding: 5px
+}
+
+.Apropos{
+	padding: 5px
+}
+
+.How{
+	padding: 5px
+}
+
+
+#footer_left{
+	display: flex;
+	justify-content:flex-end;
+	flex-direction: row;
+	margin-bottom: 30px 
+
+}
+
+.Publijudiciaire{
+	padding: 5px
+}
+
+.Infoconso{
+	padding: 5px
+}
+
+.Confidentialite{
+	padding: 5px
+}
+
+.Conditions{
+	padding: 5px
+}
+
+.Parametres{
+	padding: 5px
+}
+
+
